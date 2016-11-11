@@ -3,9 +3,8 @@ use warnings;
 use strict;
 use Crypt::CBC;
 use MIME::Base64;
-
-
-my $KEY = 'secret';
+print "Enter string u want to encrypt?";
+my $KEY = <>;
 my $string = 'The Prestige';
 print "input: $string\n";
 
